@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <!-- tailwind  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- deisy ui  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font awesome  -->
+  <script src="https://kit.fontawesome.com/1edf373191.js" crossorigin="anonymous"></script>
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Oswald&display=swap" rel="stylesheet">
+  <style>
+    .example::-webkit-scrollbar{
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- navbar  -->
+    <div class="navbar bg-base-100 py-0">
+      <div class="navbar-start">
+        <div>
+          <label tabindex="0" for="my-drawer" class="btn btn-ghost drawer-button btn-circle mx-3">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </label>
+        </div>
+        <div class="flex-col items-center">
+          <i class="fa-brands fa-youtube text-3xl text-[#ff0000]"></i>
+          <span class="text-2xl font-semibold font-[Oswald] normal-case">YouTube</span>
+        </div>
+      </div>
+      <div class="navbar-center">
+        <input type="text" placeholder="Search…" class="border py-1 px-2 w-[33rem] text-lg" />
+        <button class="border border-l-0 py-1 px-6 text-lg bg-[#f8f8f8]"><i
+            class="fa-solid fa-magnifying-glass"></i></button>
+        <button class=" py-2 px-4 ml-2 text-lg bg-[#f8f8f8] rounded-full"><i
+            class="fa-solid fa-microphone"></i></button>
+      </div>
+      <div class="navbar-end">
+        <button class="text-lg">
+          <i class="fa-solid fa-video"></i>
+        </button>
+        <button class="text-xl ml-7">
+          <i class="fa-regular fa-bell"></i>
+        </button>
+        <button class="text-xg bg-yellow-200 py-2 px-3 rounded-full mx-7">
+          <i class="fa-solid fa-user"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex ">
+    <!-- side navigation  -->
+    <section>
+      <div class="w-14 h-full">
+        <div class="flex flex-col my-4">
+          <i class="fa-sharp fa-solid fa-house self-center"></i>
+          <h3 class="self-center">Home</h3>
+        </div>
+        <div class="flex flex-col my-4">
+          <i class="fa-sharp fa-solid fa-house self-center"></i>
+          <h3 class="self-center">Home</h3>
+        </div>
+        <div class="flex flex-col my-4">
+          <i class="fa-sharp fa-solid fa-house self-center"></i>
+          <h3 class="self-center">Home</h3>
+        </div>
+        <div class="flex flex-col my-4">
+          <i class="fa-sharp fa-solid fa-house self-center"></i>
+          <h3 class="self-center">Home</h3>
+        </div>
+        <div class="flex flex-col my-4">
+          <i class="fa-sharp fa-solid fa-house self-center"></i>
+          <h3 class="self-center">Home</h3>
+        </div>
+      
+      </div>
+    </section>
+
+    <!-- drawer  -->
+    <section>
+      <div class="drawer ">
+        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content  example">
+          <!-- Page content here -->
+
+          <!-- categories section  -->
+        
+          <section class="border border-x-0 p-3">
+            <ul class="flex">
+              <li class="bg-black text-white px-3 py-1 rounded-2xl border border-black ml-3">All</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Music</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Live</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Holewood</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Mixes</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">JavaScript</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Java</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Rain</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Background music</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Relaxing</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Wilderness</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">Meditation</li>
+              <li class="bg-[#f2f2f2] px-3 py-1 rounded-2xl border border-slate-400 ml-3">chilout music</li>
+            </ul>
+          </section>
+
+          <!-- videos section  -->
+           <section class="p-5 bg-[#f9f9f9] ">
+            <div class="grid grid-cols-4 gap-5 " >
+
+             <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/klC79kvGTZs" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+             <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/0yRr3SQ0k54" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/Sbn18WSKRtE" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/tbnzAVRZ9Xc" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/bL3MkE2NzoY" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/C31rj-bZ7dA" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/XbhecuoEgxs" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/_NRRRBxcq5Y" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card rounded-none">
+                <iframe height="180px" src="https://www.youtube.com/embed/8SN9Kj8SdgE" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="p-5 pl-0 pt-2 flex bg-transparent">
+                  <div class="mr-2 mt-1">
+                    <img
+                      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                      class="w-12 h-9 rounded-full" alt="">
+                  </div>
+                  <div class="grow">
+                    <h2 class="font-medium">Nature Morning 4K | Meditation Relaxing Music</p>
+                      <div class="mt-1">
+                        <small class="text-slate-500 mt-28">Earth Relaxing</small>
+                      </div>
+                      <div>
+                        <small class="text-slate-500 mt-28">531K views</small>
+                        <span class="text-slate-500">•</span>
+                        <small class="text-slate-500 mt-28">13 days ago</small>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+
+        </div>
+        <div class="drawer-side">
+          <label for="my-drawer" class="drawer-overlay"></label>
+          <ul class="menu p-4 overflow-y-auto w-64 bg-base-100 text-base-content">
+            <!-- Sidebar content here -->
+            <li><a>Sidebar Item 1</a></li>
+            <li><a>Sidebar Item 2</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+ 
+  </main>
+
+</body>
+
+</html>
